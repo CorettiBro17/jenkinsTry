@@ -32,7 +32,7 @@
 	        if(!preg_match($regex,$object)){
 	            throw new InvalidArgumentException( sprintf( '"%s" is not a valid name',$object));
 	        }
-	        return "lol";
+	        return $object;
         }
 
         public static function tryDate($object){
@@ -40,7 +40,7 @@
 	        if($age<18){
 	       		throw new InvalidArgumentException( sprintf( '"%s" is not a valid date or you are under 18',$object));
 	        }
-	        //return $object;
+	        return $object;
 	    }
 
 	    public static function getAge($date){
