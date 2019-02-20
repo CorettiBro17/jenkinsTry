@@ -85,7 +85,7 @@
 	        if(!(preg_match($regex,$object) && (strlen($object) >= 4 && strlen($object) <= 5))){
 	            throw new InvalidArgumentException( sprintf( '"%s" is not a valid zip code',$object));
 	        }
-	        //return $object;
+	        return $object;
 	    }
 	}		
 ?>
