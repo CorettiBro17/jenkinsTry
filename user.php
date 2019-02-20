@@ -24,7 +24,7 @@
             {
                 throw new InvalidArgumentException( sprintf( '"%s" is not a valid email address',$email));
             }  
-           // return $email;
+           return $email;
         }
 
         public static function tryName($object){
@@ -40,7 +40,7 @@
 	        if($age<18){
 	       		throw new InvalidArgumentException( sprintf( '"%s" is not a valid date or you are under 18',$object));
 	        }
-	        return $object;
+	        //return $object;
 	    }
 
 	    public static function getAge($date){
