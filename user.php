@@ -1,6 +1,7 @@
 <?php
 	/**
 	 * Pagina backend di registrazione
+	 * Testing 1.2.3
 	 */
 	class User
 	{
