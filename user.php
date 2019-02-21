@@ -1,6 +1,7 @@
 <?php
 	/**
 	 * Pagina backend di registrazione
+	 *prova
 	 */
 	class User
 	{
